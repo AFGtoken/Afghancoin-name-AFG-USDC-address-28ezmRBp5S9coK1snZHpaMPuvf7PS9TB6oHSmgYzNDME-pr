@@ -1,98 +1,85 @@
-# resources
+# Afghan.coin (AFG)
 
-Resources for the Openbook, a community driven fork of the old Serum V3 program.
+Afghan.coin (AFG) is a decentralized meme token built on the Solana blockchain.  
+It aims to bring the Afghan community together in the Web3 space through transparency, fairness, and creative use of blockchain technology.
 
-Discord: https://discord.gg/pX3n5Sercb
-Twitter: https://twitter.com/openbookdex 
+---
 
-## Project Background (article)
+## 🔒 Security Summary
 
-- https://twitter.com/m_schneider/status/1591636082890006529
+AFG has implemented all key protective measures to ensure investor confidence and full decentralization:
 
-## Projects supporting
+- ✅ **Mint Authority Revoked** – No more AFG tokens can ever be minted.
+- ✅ **Freeze Authority Revoked** – No wallets can be frozen or blocked.
+- ✅ **Token Configuration is Immutable** – No upgrades or changes to contract.
+- ✅ **Ownership Renounced** – No admin control or central authority remains.
+- ✅ **LP Tokens Locked Until July 30, 2026** – Viewable on-chain.
+- ✅ **No Hidden Fees** – 0% transfer or trade tax.
+- ✅ **Open Source & Transparent** – Full code and documentation are public.
 
-- Jupiter
-- Switchboard
-- Mango
-- Drift
-- Raydium
-- Prism
-- CellFi
-- Dual Finance
-- Dexlab
-- Solend
-- Solape
-- Step Finance
-- Lanatools
-- TabTrader
+🔗 All details are documented in the [Whitepaper (v1.2)](https://github.com/Afghancoin1/Afghan.coin/blob/main/whitepaper.md#-token-security--transparency)
 
-## Program
+---
 
-- [source](https://github.com/blockworks-foundation/serum-dex)
-- mainnet `srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX`
-- devnet `EoTcMgcDRTJVZDMZWBoU6rhYHZfkNTVEAfz3uUJRcYGj`
+## 🪙 Token Information
 
-## Create new market
+- **Token Name:** Afghan.coin  
+- **Symbol:** AFG  
+- **Mint Address:** `4rxmCJLt2fsCkofAKwU6wMveD4nWoTkRHF7FbHchu6yH`  
+- **Decimals:** 9  
+- **Chain:** Solana (Mainnet, Chain ID: 101)  
+- **Logo:** ![AFG Logo](https://raw.githubusercontent.com/Afghancoin1/Afghan.coin/main/logo.png)  
+- **Tags:** meme, community, safe, no-mint, locked-liquidity  
 
-- [Serum Explorer](https://openbook-explorer.xyz/)
-- [Raydium (Create Market)](https://raydium.io/create-market/)
+---
 
-## Front-ends / GUIs
+## 📊 Token Allocation
 
-- [Solape](https://dex.solape.io)
-- [Dexlab](https://openbook.dexlab.space)
-- [Jupiter](https://jup.ag/)
-- [Prism](https://prism.ag/)
-- [Forked Serum UI](https://openbook.lionfi.sh/#/market/8BnEgHoWFysVcuFFX7QztDmzuH8r5ZFvyP3sYwn1XTh6)
-- [Lanatools](https://lanatools.com/lanadex)
-- [WOOF DEX](https://dex.woofsolana.world)
-- [TabTrader](https://tabtrader.com)
+| Allocation                            | Percentage |
+|--------------------------------------|------------|
+| Locked Tokens (until May 16, 2026)   | 30%        |
+| Liquidity Pool (Raydium / OpenBook)  | 25%        |
+| Airdrop                              | 5%         |
+| Project Treasury, Team & Marketing   | 20%        |
+| Reserve / Future Use                 | 20%        |
 
-## Cranks
+---
 
-- [mango](https://github.com/blockworks-foundation/mango-client-v3)
+## 🔐 Locked Wallet
 
-```
-$ ENDPOINT_URL="https://api.mainnet-beta.solana.com" KEYPAIR="[0,0,0,…]" ts-node src/scripts/serumCranks.ts
-```
+To ensure transparency and long-term commitment, 30% of the total supply has been locked in a separate wallet until **May 16, 2026**.
 
-## Data
+- **Locked Wallet Address:** `E2LzK9p57mEQCjAoeApfh2LQWk9Nf37y9DjAHwzNPUb1`
 
-- [openserum.io](https://openserum.io)
-- [serum-vial](https://github.com/tardis-dev/serum-vial)
-  `wss://vial.mngo.cloud/v1/ws`
-- [birdeye.so](https://birdeye.so)
-- Dynamic markets.json: https://cache.prism.ag/openbook.json
-- Dynamic markets.json (OpenSerum): https://openserum.io/api/serum/markets.json
-- Dynamic markets.json (OpenSerum), 24hr minimum volume: (https://openserum.io/api/serum/markets.json?min24hVolume=1000)
+No tokens will be moved or utilized from this wallet before the unlock date.
 
-## Client Libraries
+---
 
-- Serum-TS (Typescript): [Serum-TS](https://github.com/project-serum/serum-ts)
-- PySerum (Python): [PySerum](https://github.com/serum-community/pyserum)
-- Solnet.Serum (C#): [Solnet.Serum](https://github.com/bmresearch/Solnet.Serum)
-- SolanaJ-Programs (Java):
-  [SolanaJ-Programs](https://github.com/skynetcap/solanaj-programs/tree/master/serum)
+## 🔒 LP Token Lock
 
-## FAQ
+All liquidity pool (LP) tokens are locked in a separate wallet until **July 30, 2026** to prevent rug pulls and maintain market integrity.
 
-Same code as Serum v3? 
-- Yes, On a newly deployed program ID, deployed by a multi-sig.
+- **LP Locked Wallet Address:** `52fDombypDrutFMceRMGDCMZG2qz5z7Ersw13GkMgq4Y`
 
-Why fork Serum Code?
-- FTX had access to it and funds could be stolen by the "hacker", forked program with multisig control on [Realms](https://app.realms.today/dao/OPENBOOK)
+---
 
-Token?
-- Still using SRM token for simplicity, more details soon.
+## 📣 Community & Socials
 
-Whats the connection with Serum team/protocol?
-- Forked off the Serum codebase as FTX controls the authority, transitioned to an ecosystem realms multisig. Currently using SRM token but might transition off it.
+- **YouTube:** [@AFGtoken](https://youtube.com/@AFGtoken)  
+- **Twitter (X):** [@AFGtoken](https://x.com/AFGtoken)  
+- **TikTok:** [@AFGtoken](https://tiktok.com/@AFGtoken)  
+- **Telegram:** [@AFGtoken2](https://t.me/boost/AFGtoken2)
 
-Hiring?
-- No, its a DAO, join our Discord. 
+---
 
-Raising?
-- Doubt so but stay tuned.
+## 📝 Notes
 
-Airdrop?
-- No
+- Liquidity is currently reduced temporarily while an OpenBook market is being established to prevent early price manipulation.  
+- Airdrops will be conducted from a separate wallet, not from the locked wallet, to maintain lock integrity.  
+- Token ownership has been renounced and cannot be recovered — ensuring full decentralization.
+
+---
+
+*This README serves as an official and transparent overview of the Afghan.coin project and will be updated as new developments occur.*
+
+_Last updated: August 1, 2025_
